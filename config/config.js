@@ -7,7 +7,7 @@ import routes from './routes';
 const { REACT_APP_ENV } = process.env;
 export default defineConfig({
   hash: true,
-  publicPath: 'https://cdn.haoolee.com/',
+  publicPath: 'https://cdn.admin.haoolee.com/',
   antd: {},
   dva: {
     hmr: true,
